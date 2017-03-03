@@ -22,7 +22,7 @@ setup(
     ],
     keywords='devops configuration automation stonic ansible',
     packages=['stonic'],
-    install_requires=['click'],
+    install_requires=['click', 'pyyaml'],
     extras_require={
         'test': ['pytest'],
     },
